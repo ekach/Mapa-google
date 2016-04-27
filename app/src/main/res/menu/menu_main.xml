@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_vista"
+    android:orderInCategory="100"
+    app:showAsAction="never"
+    android:title="Tipos de mapas"/>
+
+    <item android:id="@+id/menu_mover"
+    android:orderInCategory="100"
+    app:showAsAction="never"
+    android:title="Localizar"/>
+
+    <item android:id="@+id/menu_animar"
+    android:orderInCategory="100"
+    app:showAsAction="never"
+    android:title="Zoom focalizado"/>
+
+    <item android:id="@+id/menu_3d"
+    android:orderInCategory="100"
+    app:showAsAction="never"
+    android:title="Mover 3D"/>
+
+    <item android:id="@+id/menu_posicion"
+    android:orderInCategory="100"
+    app:showAsAction="never"
+    android:title="Obtener Lat y Long"/>
+</menu>
